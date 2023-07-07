@@ -1,0 +1,344 @@
+body{
+    background-color: #5fd2ef;
+    background-image: linear-gradient(135deg, #5fd2ef 10%, #FFE32C 24%, #b5fffc 51%, #ffdee9 81%);
+    font-family: monospace;
+    margin: 0;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    margin-bottom: 100px;
+}
+.center{
+    text-align: center;
+    align-items: center;
+}
+.Insta{
+    font-size: 25px;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+#instadiv{
+    background-image: url(./assets/insta\ background.jpg);
+    width: 80%;
+    position: relative;
+    left: 10%;
+    height: 30%;
+    border-radius: 20%;
+}
+#sain{
+    width: 35%;
+    height: 35%;
+    margin: 0;
+    margin-left: 15%;
+    border-radius: 50%;
+    position: relative;
+    bottom: 10%;
+    margin-top: 10px;
+}
+#pujin{
+    width: 35%;
+    height: 35%;
+    margin: 0;
+    margin-left: 55%;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+#lattot{
+    margin: 0;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.latest{
+    font-size: xx-large;
+    margin-bottom: 75px;
+    margin-top: 50px;
+}
+#l1{
+    width: 40%;
+    position: absolute;
+    left: 10%;
+    margin: 0;
+    float: left;
+    margin-bottom: 50px;
+}
+#l2{
+    width: 40.5%;
+    position: relative;
+    left: 50%;
+    bottom: 1px;
+    animation: fadesmall 2s ease-in-out 0s infinite alternate-reverse;
+}
+#l3{
+    width: 50%;
+    position: relative;
+    left: 25%;
+    border-radius: 10%;
+    margin-top: px;
+}
+#lattot > img{
+    border-radius: 5%;
+}
+
+.hhh{
+    font-size: 50px;
+}
+#hh1{
+    width: 40%;
+    border-radius: 5%;
+    position: absolute;
+    left: 10%;
+}
+#hh2{
+    width: 40%;
+    position: relative;
+    left: 50%;
+    border-radius: 5%;
+}
+#hh{
+    margin-bottom: 100px;
+    margin-top: 200px;
+}
+#at{
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    color: red;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 50%;
+    width: 90%;
+    position: relative;
+    left: 10%;
+}
+#at > p{
+    color: #6284FF;
+}
+.fsi{
+    font-size: 35px;
+}
+#sm{
+    margin-bottom: 10px;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    display: block;
+    color: cadetblue;
+}
+#sm2{
+    margin-bottom: 100px;
+}
+#sm > h2 {
+    padding-bottom: 100px;
+}
+img{
+    margin: 0%;
+}
+a{
+    margin: 0%;
+}
+#tdimg{
+    width: 45%;
+    margin: 0px;
+}
+#adimg{
+    width: 40%;
+    margin: 0px;
+    position: relative;
+    margin-left: 30%;
+    margin-bottom: 100px;
+}
+#djimg{
+    width: 45%;
+    margin: 0px;
+    position: relative;
+    left: 10%;
+}
+.round{
+    border-radius: 5%;
+}
+#giffy{
+    width:50% ;
+    position: relative;
+    left: 25%;
+    border-radius: 50%;
+    top: 10px;
+    margin-bottom: 200px;
+}
+.gif > h2{
+    color: red;
+}
+li{
+    list-style: none;
+}
+#left{
+    text-align: right;
+    font-size: x-large;
+}
+#blue{
+    color: #5fd2ef;
+}
+#red{
+    color: lightcoral;
+}
+#vc1{
+    width: 40%;
+    border-radius: 5%;
+    position: relative;
+    left: 10%;
+}
+#vc2{
+    width: 40%;
+    border-radius: 5%;
+    position: relative;
+    left: 50%;
+}
+.vc{
+    margin-bottom: 100px;
+}
+.vchead{
+    margin-bottom:70px ;
+}
+h1.center{
+    background-color: #FF3CAC;
+background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 33%, #2B86C5 66%, #ff0000 100%);
+    display: inline;
+    position: relative;
+    width: 40%;
+    left: 20%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: fade 4s ease-in 0s 1000;
+}
+#fun{
+    margin-top: 200px;
+}
+#fun > h2{
+    margin-bottom: 50px;
+}
+#fun > img{
+    width: 40%;
+    border-radius: 5%;
+    margin: 0px;
+    padding: 0%;
+    position: relative;
+    left: 10%;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+@keyframes fade {
+    0%{
+        opacity: 1;
+    }
+    5%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 0;
+    }
+
+    30%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 0;
+    }
+
+    80%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes fadesmall {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+    
+}
+@keyframes backchange {
+    0%{
+      
+
+    }
+    33.33%{
+        background-color: #FBAB7E;
+background-image: linear-gradient(180deg, #FBAB7E 0%, #F7CE68 100%);
+
+    }
+    66.66%{
+        background-color: #D9AFD9;
+background-image: linear-gradient(180deg, #D9AFD9 0%, #97D9E1 100%);
+
+    }
+    99.99%{
+        background-color: #FFFFFF;
+background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+
+    }
+
+}
+#lattot{
+    animation: backchange 10s ease 0s infinite  ;
+    border-radius: 20%;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    padding-bottom: 1px;
+
+}
+@keyframes appear {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
+img{
+    animation: appear 5s ease 0s 1 ;
+}
+.confimg{
+    width: 100%;
+    border-radius: 16%;
+}
+#conf{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+#conf > img{
+    margin-top: 10px;
+}
+#col{
+    color: #FF3CAC;
+}
+p .fsi {
+    text-align: right;
+}

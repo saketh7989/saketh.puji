@@ -1,0 +1,114 @@
+body{
+    background-color: #f79690;
+background-image: linear-gradient(315deg, #f79690 0%, #bba6fe 33%, #a9f5ed 66%, #5d5656 100%);
+font-family: monospace;
+margin: 0;
+}
+.fsi{
+    font-size: xx-large;
+}
+.center{
+    text-align: center;
+}
+.start{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.fps{
+    font-size: xx-large;
+    margin-bottom: 50px;
+}
+#dj1{
+    width: 40%;
+    border-radius: 50%;
+    position: relative;
+    left: 10%;
+}
+#dj2{
+    width: 40%;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+}
+.imgcont{
+    margin-bottom: 100px;
+}
+li{
+    list-style: none;
+}
+.buttondiv{
+    margin-bottom: 50px;
+}
+#blue{
+    color: #5fd2ef;
+}
+#red{
+    color: red;
+}
+#right{
+    text-align: right;
+    font-size: x-large;
+}
+h1.center{
+    background-color: #FF3CAC;
+background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 33%, #2B86C5 66%, #ff0000 100%);
+    display: inline;
+    position: relative;
+    left: 30%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    animation: fade 4s ease-in 0s 1000;
+}
+@keyframes fade {
+    0%{
+        opacity: 1;
+    }
+    5%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 0;
+    }
+
+    30%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 0;
+    }
+
+    80%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes appear {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
+img{
+    animation: appear 5s ease 0s 1 ;
+}
